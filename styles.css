@@ -23,21 +23,28 @@ h1 {
 /* Social Media Buttons */
 .socials {
     margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .socials a {
-    display: inline-block;
-    font-size: 2em;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em; /* Icon size */
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    border-radius: 50%;
     text-align: center;
     color: black;
     background: white;
     transition: 0.3s;
+    text-decoration: none;
+}
+
+.socials a i {
+    font-size: 1.5em;
 }
 
 .snapchat:hover { background: yellow; }
