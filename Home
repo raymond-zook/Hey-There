@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Throttle Junkie</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Throttle Junkie</h1>
+    </header>
+
+    <!-- Social Media Links -->
+    <section class="socials">
+        <a href="https://www.snapchat.com" target="_blank" class="snapchat"><i class="fab fa-snapchat"></i></a>
+        <a href="https://www.instagram.com" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.messenger.com" target="_blank" class="messenger"><i class="fab fa-facebook-messenger"></i></a>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Just a guy who lives for the thrill of the ride. Speed, adrenaline, and late-night city lights are my playground. 
+        When I'm not carving up the streets, I'm wrenching on my bike, pushing limits, and making memories.</p>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="https://via.placeholder.com/300" alt="Bike Image 1">
+            <img src="https://via.placeholder.com/300" alt="Bike Image 2">
+            <img src="https://via.placeholder.com/300" alt="Bike Image 3">
+            <img src="https://via.placeholder.com/300" alt="Bike Image 4">
+        </div>
+    </section>
+
+</body>
+</html>
