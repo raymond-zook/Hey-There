@@ -73,13 +73,13 @@ h1 {
 
 /* Ensure full image is shown while maintaining aspect ratio */
 .gallery-container img {
-    width: 100%; /* Makes image responsive */
-    max-width: 300px; /* Limits image width */
-    height: auto; /* Maintains original aspect ratio */
+    width: auto; /* Allows the image to take its natural width */
+    max-width: 100%; /* Ensures the image does not exceed the container's width */
+    height: auto; /* Maintains the original aspect ratio */
     border-radius: 10px; /* Keeps corners rounded */
     transition: 0.3s;
 }
-
+    
 .gallery-container img:hover {
     transform: scale(1.05); /* Subtle zoom on hover */
 }
