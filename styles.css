@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: red;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+/* Social Media Buttons */
+.socials {
+    margin: 20px 0;
+}
+
+.socials a {
+    display: inline-block;
+    font-size: 2em;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+
+.snapchat:hover { background: yellow; }
+.instagram:hover { background: #E1306C; }
+.messenger:hover { background: #0084FF; }
+
+/* About Section */
+.about {
+    margin: 40px 10px;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+}
+
+/* Gallery */
+.gallery h2 {
+    margin-top: 40px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+}
